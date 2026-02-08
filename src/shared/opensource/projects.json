@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "id": "R_kgDOO3Upuw",
+      "name": "DanteVela.github.io",
+      "createdAt": "2025-06-06T17:37:13Z",
+      "url": "https://github.com/DanteVela/DanteVela.github.io",
+      "description": "Deployment Build of masterPortfolio [Special]",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOO2R2bA",
+      "name": "masterPortfolio",
+      "createdAt": "2025-06-05T00:38:54Z",
+      "url": "https://github.com/DanteVela/masterPortfolio",
+      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOO_JwMQ",
+      "name": "Python-Learning-Grounds",
+      "createdAt": "2025-06-20T18:31:36Z",
+      "url": "https://github.com/DanteVela/Python-Learning-Grounds",
+      "description": "A comprehensive collection of tutorials and hands-on exercises to support both my own growth and that of fellow Python developers.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOO5llgw",
+      "name": "PHP-Learning-Grounds",
+      "createdAt": "2025-06-11T01:34:06Z",
+      "url": "https://github.com/DanteVela/PHP-Learning-Grounds",
+      "description": "A hands-on PHP learning hub with tutorials, code examples, and mini-projects to guide you from syntax basics to modern web development best practices.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOO-D11A",
+      "name": "Voice-Assistant-Python",
+      "createdAt": "2025-06-18T22:10:12Z",
+      "url": "https://github.com/DanteVela/Voice-Assistant-Python",
+      "description": "A repository of a speech-driven virtual assistant powered by Speech Recognition for voice input, pyttsx3 for text-to-speech, Pywhatkit and webbrowser for web tasks, plus Wikipedia lookups and programmer jokes via pyjokes.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOPIcNBA",
+      "name": "Predicting-Winning-Numbers",
+      "createdAt": "2025-07-07T15:11:43Z",
+      "url": "https://github.com/DanteVela/Predicting-Winning-Numbers",
+      "description": "Machine learning models that are trained on using historical data to predict the future.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    }
+  ]
+}
