@@ -10,11 +10,11 @@ const settings = {
 const seo = {
   title: "Chiheb Ayari's Portfolio",
   description:
-    "A Data Science engineer specializing in Data Science and AI combines innovative design with robust coding practices to build secure, responsive, and user-centric digital experiences.",
+    "Data science engineering student specializing in machine learning, data analytics, and full-cycle data projects, from preprocessing and modeling to visualization and deployment..",
   og: {
     title: "Chiheb Ayari Portfolio",
     type: "website",
-    url: "", // ***Maybe change URL Name Later?***
+    url: "", // **Maybe change URL Name Later?**
   },
 };
 
@@ -22,14 +22,14 @@ const seo = {
 // -----------------------------------------------------------------------------------------------------------------------------
 // "This is the 1st Page that loads in after the Splash screen"
 const greeting = {
-  title: "Dante Vela", // Intro Page & Made by "Name"
-  logo_name: "Dante Vela", // Cursive Name Logo
-  nickname: "IT Specialist | Programmer", // Nickname or Status
+  title: "Chiheb Ayari", // Intro Page & Made by "Name"
+  logo_name: "Chiheb Ayari", // Cursive Name Logo
+  nickname: "Data Science  | IA & ML enthusiast", // Nickname or Status
   subTitle:
-    "A software engineer specializing in website development who combines innovative design with robust coding practices to build secure, responsive, and user-centric digital experiences.",
+    "Data science engineering student specializing in machine learning, data analytics, and full-cycle data projects, from preprocessing and modeling to visualization and deployment..",
   resumeLink:
     // When the [See my Resume] Button is clicked in the [Contact Me] Page, it will take the user to the Resume
-    "https://1drv.ms/b/c/7604ad3657907d92/EURpaZg0X0RGhK_vGdVEcEEBAniqjtwMMdaD-7-sUq2F9Q?e=078MrE",
+    "https://1drv.ms/b/c/4AA70777CC679A5A/IQBTw4BQqcUjSo5BMqAP4Io9Ac0EvN_P71XPOq2FT26d2yc?e=XLqnyc",
   // "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/DanteVela/masterPortfolio",
   githubProfile: "https://github.com/DanteVela",
@@ -51,23 +51,24 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/DanteVela",
+    link: "https://github.com/Chiheb-Ayarii",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/dante-vela-544284192/",
+    link: "www.linkedin.com/in/chiheb-ayari-3a2288343",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#005FF9", // Reference https://simpleicons.org/?q=linkedin
   },
+  /*
   {
-    // Microsoft Logo is a substitute for Outlook Email Icon
-    name: "Outlook",
-    link: "mailto:dante.vela@outlook.com",
-    fontAwesomeIcon: "fa-microsoft", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#004788", // Reference https://simpleicons.org/?q=gmail
-    // backgroundColor: "transparent", (Icon appears white until mouse hovers over it)
+      // Microsoft Logo is a substitute for Outlook Email Icon
+      name: "Outlook",
+      link: "mailto:dante.vela@outlook.com",
+      fontAwesomeIcon: "fa-microsoft", // Reference https://fontawesome.com/icons/google?style=brands
+      backgroundColor: "#004788", // Reference https://simpleicons.org/?q=gmail
+      // backgroundColor: "transparent", (Icon appears white until mouse hovers over it)
   },
   /*
   {
@@ -113,9 +114,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Drives continuous innovation by developing scalable solutions that align with modern industry demands",
-        "⚡ Experience working with programming methodologies and paradigms in projects",
-        "⚡ Leveraging emerging technologies and best practices to enhance scalability, performance, and business insights",
+        "⚡ Designing and implementing machine learning models to extract insights and solve real-world challenges",
+        "⚡ Applying structured programming, statistical thinking, and problem-solving techniques across multiple projects",
+        "⚡ Leveraging modern data science frameworks and best practices to improve accuracy, scalability, and impact",
       ],
       softwareSkills: [
         {
@@ -209,124 +210,125 @@ const skills = {
         },
       ],
     },
+    /*
     {
-      // title: "Full Stack Development",
-      title: "Web Developer",
-      fileName: "FullStackImg",
-      skills: [
-        // Front-End Proficiency
-        "⚡ Creating refined, responsive interfaces by using HTML5, CSS3, JavaScript, jQuery, Ajax, Bootstrap, Sass, and Tailwind CSS",
+        // title: "Full Stack Development",
+        title: "Web Developer",
+        fileName: "FullStackImg",
+        skills: [
+            // Front-End Proficiency
+            "⚡ Creating refined, responsive interfaces by using HTML5, CSS3, JavaScript, jQuery, Ajax, Bootstrap, Sass, and Tailwind CSS",
 
-        // Full-Stack Development
-        "⚡ Developing dynamic web applications using ReactJS, NodeJS, and Express, with efficient data handling via JSON and RESTful API/services",
+            // Full-Stack Development
+            "⚡ Developing dynamic web applications using ReactJS, NodeJS, and Express, with efficient data handling via JSON and RESTful API/services",
 
-        // Optimized Workflow
-        "⚡ Utilizing Postman, NPM, and Yarn to ensure robust testing, seamless dependency management, and streamlined workflows",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "simple-icons:tailwindcss",
-          style: {
-            color: "#06B6D4",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0769AD",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "#7952B3",
-          },
-        },
-        {
-          skillName: "Postman",
-          fontAwesomeClassname: "simple-icons:postman",
-          style: {
-            color: "#FF6C37",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        /*
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        */
-      ],
+            // Optimized Workflow
+            "⚡ Utilizing Postman, NPM, and Yarn to ensure robust testing, seamless dependency management, and streamlined workflows",
+        ],
+        softwareSkills: [
+            {
+                skillName: "HTML5",
+                fontAwesomeClassname: "simple-icons:html5",
+                style: {
+                    color: "#E34F26",
+                },
+            },
+            {
+                skillName: "CSS3",
+                fontAwesomeClassname: "fa-css3",
+                style: {
+                    color: "#1572B6",
+                },
+            },
+            {
+                skillName: "Tailwind CSS",
+                fontAwesomeClassname: "simple-icons:tailwindcss",
+                style: {
+                    color: "#06B6D4",
+                },
+            },
+            {
+                skillName: "JavaScript",
+                fontAwesomeClassname: "simple-icons:javascript",
+                style: {
+                    backgroundColor: "#000000",
+                    color: "#F7DF1E",
+                },
+            },
+            {
+                skillName: "jQuery",
+                fontAwesomeClassname: "simple-icons:jquery",
+                style: {
+                    color: "#0769AD",
+                },
+            },
+            {
+                skillName: "ReactJS",
+                fontAwesomeClassname: "simple-icons:react",
+                style: {
+                    color: "#61DAFB",
+                },
+            },
+            {
+                skillName: "NodeJS",
+                fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+                style: {
+                    color: "#339933",
+                },
+            },
+            {
+                skillName: "NPM",
+                fontAwesomeClassname: "simple-icons:npm",
+                style: {
+                    color: "#CB3837",
+                },
+            },
+            {
+                skillName: "Bootstrap",
+                fontAwesomeClassname: "simple-icons:bootstrap",
+                style: {
+                    color: "#7952B3",
+                },
+            },
+            {
+                skillName: "Postman",
+                fontAwesomeClassname: "simple-icons:postman",
+                style: {
+                    color: "#FF6C37",
+                },
+            },
+            {
+                skillName: "Yarn",
+                fontAwesomeClassname: "simple-icons:yarn",
+                style: {
+                    color: "#2C8EBB",
+                },
+            },
+            {
+                skillName: "Sass",
+                fontAwesomeClassname: "simple-icons:sass",
+                style: {
+                    color: "#CC6699",
+                },
+            },
+            // The following were commented out in the original
+            // {
+            //   skillName: "Gatsby",
+            //   fontAwesomeClassname: "simple-icons:gatsby",
+            //   style: {
+            //     color: "#663399",
+            //   },
+            // },
+            // {
+            //   skillName: "Flutter",
+            //   fontAwesomeClassname: "simple-icons:flutter",
+            //   style: {
+            //     color: "#02569B",
+            //   },
+            // },
+        ],
     },
+    */
     {
       // title: "Cloud Infra-Architecture",
       title: "Cloud Stack Foundation",
@@ -339,19 +341,19 @@ const skills = {
       ],
       softwareSkills: [
         /*{
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
+            skillName: "GCP",
+            fontAwesomeClassname: "simple-icons:googlecloud",
+            style: {
+              color: "#4285F4",
+            },
           },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },*/
+          {
+            skillName: "AWS",
+            fontAwesomeClassname: "simple-icons:amazonaws",
+            style: {
+              color: "#FF9900",
+            },
+          },*/
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
@@ -388,26 +390,26 @@ const skills = {
           },
         },
         /*{
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
+            skillName: "Firebase",
+            fontAwesomeClassname: "simple-icons:firebase",
+            style: {
+              color: "#FFCA28",
+            },
           },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#47A248",
+            },
           },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },*/
+          {
+            skillName: "Kubernetes",
+            fontAwesomeClassname: "simple-icons:kubernetes",
+            style: {
+              color: "#326CE5",
+            },
+          },*/
       ],
     },
     {
@@ -1261,7 +1263,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Connect with Me",
-    profile_image_path: "Self_Portrait.png",
+    profile_image_path: "chiheb.jpg",
     description:
       "I'm available nearly every day. You can contact me thru email, message, phone call, or social media. Expect responses within 48 hours.",
   },

@@ -1,3 +1,10 @@
+.contact-heading-img-div>* {
+  border-radius: 100%;
+  width: 60%;
+  height: 60%;
+  margin-bottom: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -37,6 +44,7 @@
     transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
       transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0px);
@@ -52,6 +60,7 @@
     transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
       transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0px);
