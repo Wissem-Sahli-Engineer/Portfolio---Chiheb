@@ -8,14 +8,13 @@ const settings = {
 
 // Search Engine Optimization Related settings
 const seo = {
-  title: "Dante Vela's Portfolio",
+  title: "Chiheb Ayari's Portfolio",
   description:
-    "A software engineer specializing in website development combines innovative design with robust coding practices to build secure, responsive, and user-centric digital experiences.",
+    "A Data Science engineer specializing in Data Science and AI combines innovative design with robust coding practices to build secure, responsive, and user-centric digital experiences.",
   og: {
-    title: "Dante Vela Portfolio",
+    title: "Chiheb Ayari Portfolio",
     type: "website",
-    url: "http://DanteVela.com/", // ***Maybe change URL Name Later?***
-    // url: "http://ashutoshhathidara.com/",
+    url: "", // ***Maybe change URL Name Later?***
   },
 };
 
