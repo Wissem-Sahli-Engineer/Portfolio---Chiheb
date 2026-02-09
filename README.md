@@ -23,12 +23,12 @@
 </p>
 
 <p align="center"> 
-    photo
+    <a href="https://portfolio-chiheb.vercel.app/">
+        <img src="screen.png" height=600px width=800px> </img>
+    </a>
 </p>
 
-
-
-To view a live example, **[click here]()**
+To view a live example, **[click here](https://portfolio-chiheb.vercel.app/)**
 
 # Clone and Use 📋
 
@@ -92,7 +92,7 @@ You can change the personal information, experience, education, social media, ce
 
 ### Splash Logo
 
-Note here that if you click [my portfolio](https://ashutosh1919.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
+Note here that if you click [my portfolio](https://portfolio-chiheb.vercel.app/), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
 Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
 
 - If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
