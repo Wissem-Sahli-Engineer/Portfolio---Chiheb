@@ -23,12 +23,12 @@
 </p>
 
 <p align="center"> 
-    photo
+    <a href="https://portfolio-chiheb.vercel.app/">
+        <img src="screen.png" height=600px width=800px> </img>
+    </a>
 </p>
 
-
-
-To view a live example, **[click here]()**
+To view a live example, **[click here](https://portfolio-chiheb.vercel.app/)**
 
 # Clone and Use 📋
 
