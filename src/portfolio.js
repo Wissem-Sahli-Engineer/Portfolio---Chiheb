@@ -3,7 +3,7 @@
 // Website Related settings
 // This is the Intro Loading screen before the Home Page such as a Splash screen
 const settings = {
-  isSplash: false, // Change to false if you don't want Splash screen | Change to true if you want Splash screen
+  isSplash: true, // Change to false if you don't want Splash screen | Change to true if you want Splash screen
 };
 
 // Search Engine Optimization Related settings
